@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AngularJS - Curso</title>
+	<title>AngularJS - Curso</title> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta charset="UTF-8">
 </head>
 <body>
-	<h1>Hello World</h1>
+	<div class="container">
+		<form id="form">		
+			<h1>Formulário</h1>
+			<div class="form-group">
+				<label for="name">Nome:</label>
+				<input type="text" class="form-control" id="name" placeholder="qual seu nome?"></input>
+			</div>
+
+			<div class="form-group">
+				<label for="lastname">Sobrenome:</label>
+				<input type="text" class="form-control" id="lastname"  placeholder="qual seu sobrenome?"></input>
+			</div>
+
+			<input class="btn pull-right" type="submit" value="Gravar"></input>
+		</form>
+	</div>
+
 </body>
 </html>
